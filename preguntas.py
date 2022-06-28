@@ -127,7 +127,7 @@ def pregunta_03():
     from sklearn.pipeline import Pipeline
 
     # Cargue las variables.
-    X_train, X_test, y_train, y_train = pregunta_02()
+    X_train, X_test, y_train, y_test = pregunta_02()
 
     # Cree un pipeline que contenga un estimador OneHotEncoder y un estimador
     # LogisticRegression con una regularización Cs=10
